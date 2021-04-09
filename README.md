@@ -35,12 +35,14 @@ Let F be the stock price of the day after tomorrow minus the stock price of tomo
     (CASE 1B) F < 0                       (CASE 2B) F < 0                       (CASE 3B) F > 0
         ACTION : -1                           ACTION : -1                           ACTION : 1   
     (CASE 1C) F = 0
-        ACTION : 0  
+        ACTION : 0 
+        
 (CASE 2) C == 1
     (CASE 2A) F >= 0
         ACTION : 0
     (CASE 2B) F < 0
         ACTION : -1  
+        
 (CASE 3) C == -1
     (CASE 3A) F <= 0
         ACTION : 0
