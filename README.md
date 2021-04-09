@@ -9,7 +9,7 @@ In this project, I used a series of previous stock prices to decide my future ac
 
 ## Data
 The training data is [NASDAQ:IBM](https://www.nasdaq.com/market-activity/stocks/ibm), contains about 6 years daily prices. And the testing data contains 20 days daily prices.
-| ![]() |
+| ![](https://github.com/gsdndeer/AutoTrading/blob/main/figures/training.jpg) |
 | :--: |
 |*trainin data*|
 
@@ -55,5 +55,5 @@ Let F be the stock price of the day after tomorrow minus the stock price of tomo
 
 | Epoch | ep20 | ep500 | ep1500 |
 | :--: | :--: | :--: |:--: |
-| Figure | ![]() | ![]() | ![]() |
+| Figure | ![](https://github.com/gsdndeer/AutoTrading/blob/main/figures/epoch20.jpg) | ![](https://github.com/gsdndeer/AutoTrading/blob/main/figures/epoch500.jpg) | ![](https://github.com/gsdndeer/AutoTrading/blob/main/figures/epoch1500.jpg) |
 | Profit | +4.82 | +9.31 | +6.94 |
