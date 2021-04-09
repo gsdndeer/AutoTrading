@@ -25,10 +25,12 @@ The action should be one of these three types:
 
 
 ## Method
+### I
 First step, I used LSTM to predict future 20 days daily prices.
-Second step, I 
+Second step, I decide actions by using the following algorithm.
+
 
 | Epoch | ep20 | ep500 | ep1500 |
 | :--: | :--: | :--: |:--: |
 | Figure | ![]() | ![]() | ![]() |
-| Profit | +4.82 | + | +6.94 |
+| Profit | +4.82 | +9.31 | +6.94 |
