@@ -25,9 +25,10 @@ The action should be one of these three types:
 
 
 ## Method
-### I
-First step, I used LSTM to predict future 20 days daily prices.
-Second step, I decide actions by using the following algorithm.
+### I. Used LSTM to predict future 20 days daily prices.
+### II. Decided actions by using the following algorithm.
+```Let p<sub>i<sub>+<sub>1 and 
+
 
 
 | Epoch | ep20 | ep500 | ep1500 |
