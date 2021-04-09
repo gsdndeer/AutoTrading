@@ -28,7 +28,7 @@ The action should be one of these three types:
 ### I. Used LSTM to predict future 20 days daily prices.
 ### II. Decided actions by using the following algorithm.
 Let F be the stock price of the day after tomorrow minus the stock price of tomorrow and C be current stock{-1, 0, 1} in hand.
-
+```
 (CASE 1) C == 0                       (CASE 2) C == 1                       (CASE 3) C == -1
     (CASE 1A) F > 0                       (CASE 2A) F >= 0                      (CASE 3A) F <= 0
         ACTION : 1                            ACTION : 0                            ACTION : 0
@@ -36,19 +36,7 @@ Let F be the stock price of the day after tomorrow minus the stock price of tomo
         ACTION : -1                           ACTION : -1                           ACTION : 1   
     (CASE 1C) F = 0
         ACTION : 0 
-        
-(CASE 2) C == 1
-    (CASE 2A) F >= 0
-        ACTION : 0
-    (CASE 2B) F < 0
-        ACTION : -1  
-        
-(CASE 3) C == -1
-    (CASE 3A) F <= 0
-        ACTION : 0
-    (CASE 3B) F > 0
-        ACTION : 1   
-
+```
 
 
 
