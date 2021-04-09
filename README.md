@@ -1,6 +1,6 @@
 # AutoTrading
 
-In this project, I used a series of previous stock prices to decide my future actions and maximized maximize profits.
+In this project, I used a series of previous stock prices to decide my future actions and maximize profits.
 
 
 ## Usage
