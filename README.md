@@ -9,7 +9,7 @@ In this project, I used a series of previous stock prices to decide my future ac
 
 ## Data
 The training data is [NASDAQ:IBM](https://www.nasdaq.com/market-activity/stocks/ibm), contains about 6 years daily prices. And the testing data contains 20 days daily prices.
-| ![](https://github.com/gsdndeer/AutoTrading/blob/main/figures/training.jpg) |
+| ![](https://github.com/gsdndeer/AutoTrading/blob/main/figures/train.jpg) |
 | :--: |
 |*trainin data*|
 
