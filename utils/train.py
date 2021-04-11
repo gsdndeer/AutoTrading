@@ -39,7 +39,7 @@ def preprocessing(training_data, train_window = 20):
     return train_inout_seq
 
 
-def train(training_data, epochs=5):
+def train(training_data, epochs=500):
     # gpu or cpu
     if torch.cuda.is_available(): device = torch.device("cuda")
     else: device = torch.device("cpu")
