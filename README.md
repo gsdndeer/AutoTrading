@@ -49,11 +49,9 @@ Let F be the stock price of the day after tomorrow minus the stock price of tomo
     (CASE 3B) F > 0
         ACTION : 1
 ```
-* Note : I found all of my results have similar errors between the predicted value and real value. Therefore, I shifted the predicted data and set the action to 0 in case of insufficient data. 
 
 ## Result
 
 | Epoch | ep20 | ep500 | ep1500 |
 | :--: | :--: | :--: |:--: |
 | Figure | ![](https://github.com/gsdndeer/AutoTrading/blob/main/figures/epoch20.jpg) | ![](https://github.com/gsdndeer/AutoTrading/blob/main/figures/epoch500.jpg) | ![](https://github.com/gsdndeer/AutoTrading/blob/main/figures/epoch1500.jpg) |
-| Profit | +4.82 | +9.31 | +6.94 |
